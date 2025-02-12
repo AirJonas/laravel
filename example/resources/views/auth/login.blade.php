@@ -4,7 +4,7 @@
     </x-slot:heading>
 
 
-    <form method="POST" action="/jobs">
+    <form method="POST" action="/login">
         @csrf
 
         <div class="space-y-12">
