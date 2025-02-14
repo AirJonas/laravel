@@ -27,7 +27,7 @@
                         <x-form-label for="Salary">Salary</x-form-label>
 
                         <div class="mt-2">
-                            <x-form-input name="salary" id="salary" placeholder="$50,000 USD" required></x-form-input>
+                            <x-form-input name="salary" id="salary" placeholder="$50,000 USD"></x-form-input>
 
                             <x-form-error name="salary"></x-form-error>
                         </div>
