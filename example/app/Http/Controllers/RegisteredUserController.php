@@ -23,7 +23,7 @@ class RegisteredUserController extends Controller
             'first_name' => ['required'],
             'last_name' => ['required'],
             'email' => ['required', 'email'],
-            'password'=> ['required', Password::min(6)]
+            'password' => ['required', Password::min(6)]
         ]);
 
         $user = User::create($attributes);
@@ -31,6 +31,5 @@ class RegisteredUserController extends Controller
         Auth::login($user);
 
         return redirect('/jobs');
-
     }
 }

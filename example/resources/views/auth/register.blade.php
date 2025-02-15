@@ -15,9 +15,9 @@
                         <x-form-label for="first-name">First Name</x-form-label>
 
                         <div class="mt-2">
-                            <x-form-input name="first-name" id="first-name" required></x-form-input>
+                            <x-form-input name="first_name" id="first_name" required></x-form-input>
 
-                            <x-form-error name="first-name"></x-form-error>
+                            <x-form-error name="first_name"></x-form-error>
                         </div>
                     </x-form-field>
 
